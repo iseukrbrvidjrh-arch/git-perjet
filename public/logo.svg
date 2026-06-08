@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818cf8" />
+      <stop offset="0.5" stop-color="#a855f7" />
+      <stop offset="1" stop-color="#e879f9" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop stop-color="#c4b5fd" stop-opacity="0.9" />
+      <stop offset="1" stop-color="#6d28d9" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#0a0a2a" />
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#glow)" opacity="0.5" />
+  <rect x="4.5" y="4.5" width="55" height="55" rx="15.5" stroke="url(#logoGrad)" stroke-opacity="0.6" />
+  <path d="M32 14 L35.6 27.2 L48.8 30.8 L35.6 34.4 L32 47.6 L28.4 34.4 L15.2 30.8 L28.4 27.2 Z" fill="url(#logoGrad)" />
+  <circle cx="46" cy="18" r="2.2" fill="#f5d0fe" />
+  <circle cx="18" cy="44" r="1.6" fill="#a5b4fc" />
+  <circle cx="48" cy="46" r="1.4" fill="#e879f9" />
+  <circle cx="16" cy="20" r="1.2" fill="#c4b5fd" />
+</svg>
